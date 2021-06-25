@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #eee;
+}
+#container{
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow:30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+}
+img{
+    width: 100%;
+}
+#landing{
+    display: flex;
+    height: 100vh;
+}
+@media(max-width: 600px){
+    #landing {
+        display:flex;
+        flex-direction: column;
+    }
+}
+.landing-txt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    flex: 1 40vw;
+}
+.landing-img{
+    background: url(https://img.theculturetrip.com/768x/smart/wp-content/uploads/2017/11/3-4.jpg);  
+    height: 100vh;
+    flex: 2 60vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.landing-txt h1{
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+}
+.landing-txt h3{
+    color: #aaa;
+}
+#button{
+    text-decoration: none;
+    padding: 20px 50px;
+    border:1px solid #bbb;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-weight: 600;
+    color: #000;
+    background:#fff;
+    transition:background 0.5s;
+}
+@media(max-width:700px){
+    #button{
+        padding:10px 30px;
+    }
+}
+#button:hover{
+    background:#ddd;
+}
+#images{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background: rgb(51, 51, 51);
+    text-align: center;
+    padding: 30px 0;
+}
+.header h2{
+    display: inline-block;
+    border-left: 2px dotted #fff;
+    border-right: 2px dotted #fff;
+    padding:0 15px;
+    color: #fff;
+}
+.caption{
+    text-align: center;
+    padding: 10px;
+}
+.caption h3{
+    padding-top:20px;
+    font-size: 1.3rem;
+}
+.caption p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+footer{
+    margin-top: 70px;
+}
+footer h2{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+footer p{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+}
